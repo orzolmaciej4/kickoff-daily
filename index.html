@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kickoff Daily — The Football Puzzle App</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Instrument+Serif:ital@0;1&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">KICKOFF <span>Daily</span></div>
+  <button class="nav-cta" data-tally-open="1AGQyL" data-tally-emoji-text="⚽" data-tally-emoji-animation="wave" data-tally-auto-close="2000">JOIN WAITLIST</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow">The daily football puzzle</div>
+    <h1 class="hero-headline">THREE<br>PUZZLES.<br><em>One</em> KO.</h1>
+    <p class="hero-sub">
+      A new football challenge every day. Guess the player, find the connections, beat the chain. Free to play. Takes three minutes.
+    </p>
+    <div class="signup-form">
+      <button class="signup-btn" data-tally-open="1AGQyL" data-tally-emoji-text="⚽" data-tally-emoji-animation="wave" data-tally-auto-close="2000">JOIN THE WAITLIST</button>
+    </div>
+    <div class="signup-note">No spam · Unsubscribe anytime · Your data stays private</div>
+    <div style="margin-top:20px;opacity:0;animation:slideUp 0.6s ease 0.6s forwards">
+      <a class="share-btn" href="https://twitter.com/intent/tweet?text=Just%20found%20Kickoff%20Daily%20%E2%80%94%20a%20daily%20football%20puzzle%20app%20with%20three%20modes.%20Looks%20🔥%20Sign%20up%20before%20launch%3A%20https%3A%2F%2Fkickoff-daily.vercel.app" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.73-8.835L1.254 2.25H8.08l4.253 5.622 5.911-5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+        Share on X to spread the word
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-right">
+    <div class="phone-wrap">
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="p-header">
+            <div class="p-logo">KICKOFF</div>
+            <div class="p-streak">🔥 7 DAY STREAK</div>
+          </div>
+          <div class="p-date">WED 30 APR · TODAY'S PUZZLES</div>
+          <div class="p-mode g done">
+            <div class="p-mode-icon">⚽</div>
+            <div class="p-mode-info">
+              <div class="p-mode-name">GUESSER</div>
+              <div class="p-mode-sub">Solved in 3 clues</div>
+            </div>
+            <div class="p-done-tag">DONE</div>
+          </div>
+          <div class="p-mode c">
+            <div class="p-mode-icon">🔗</div>
+            <div class="p-mode-info">
+              <div class="p-mode-name">CONNECTIONS</div>
+              <div class="p-mode-sub">Group 12 players</div>
+            </div>
+          </div>
+          <div class="p-mode h">
+            <div class="p-mode-icon">📊</div>
+            <div class="p-mode-info">
+              <div class="p-mode-name">HIGHER / LOWER</div>
+              <div class="p-mode-sub">Beat your record</div>
+            </div>
+          </div>
+          <div class="p-stats">
+            <div class="p-stat"><div class="p-stat-num">7</div><div class="p-stat-lbl">Streak</div></div>
+            <div class="p-stat"><div class="p-stat-num">41</div><div class="p-stat-lbl">Played</div></div>
+            <div class="p-stat"><div class="p-stat-num">83%</div><div class="p-stat-lbl">Win rate</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MODES -->
+<section class="modes-section">
+  <div class="section-label">Game modes</div>
+  <h2 class="modes-title">THREE WAYS<br>TO <em>prove</em> YOU KNOW<br>YOUR FOOTBALL</h2>
+  <div class="modes-grid">
+    <div class="mode-card m-a reveal">
+      <div class="mode-num">MODE 01</div>
+      <span class="mode-icon-lg">⚽</span>
+      <div class="mode-name-lg">PLAYER GUESSER</div>
+      <p class="mode-desc-lg">Five clues. One mystery player. The fewer clues you need, the more points you earn. Easy to start, impossible to stop.</p>
+      <span class="mode-tag">5 CLUES · DAILY PLAYER</span>
+    </div>
+    <div class="mode-card m-b reveal" style="transition-delay:0.1s">
+      <div class="mode-num">MODE 02</div>
+      <span class="mode-icon-lg">🔗</span>
+      <div class="mode-name-lg">CONNECTIONS</div>
+      <p class="mode-desc-lg">Twelve players. Three hidden groups. Can you find what links them before you run out of lives? Harder than it looks.</p>
+      <span class="mode-tag">12 PLAYERS · 3 GROUPS</span>
+    </div>
+    <div class="mode-card m-c reveal" style="transition-delay:0.2s">
+      <div class="mode-num">MODE 03</div>
+      <span class="mode-icon-lg">📊</span>
+      <div class="mode-name-lg">HIGHER / LOWER</div>
+      <p class="mode-desc-lg">Compare Premier League stats head-to-head. Build your chain. One wrong answer and it's over. How far can you go?</p>
+      <span class="mode-tag">CHAIN CHALLENGE · STATS</span>
+    </div>
+  </div>
+</section>
+
+<!-- TRY IT -->
+<section class="how-section" id="try-it">
+  <div class="section-label">Try it now</div>
+  <h2 class="modes-title">PLAY A <em>sample</em><br>ROUND</h2>
+
+  <div class="demo-tabs">
+    <button class="demo-tab active" onclick="switchDemo('guesser',this)">⚽ GUESSER</button>
+    <button class="demo-tab" onclick="switchDemo('connections',this)">🔗 CONNECTIONS</button>
+    <button class="demo-tab" onclick="switchDemo('hl',this)">📊 HIGHER / LOWER</button>
+  </div>
+
+  <!-- GUESSER DEMO -->
+  <div class="demo-panel active" id="demo-guesser">
+    <div class="demo-eyebrow">Mode 01 · Guess the player from clues — fewer clues = more points</div>
+    <div class="demo-grid">
+      <div class="demo-left">
+        <div class="g-clues" id="g-clues">
+          <div class="g-clue revealed" id="gc1">
+            <div class="g-num">1</div>
+            <div class="g-text">Won the World Cup with France in 1998</div>
+            <div class="g-pts">+5 pts</div>
+          </div>
+          <div class="g-clue locked" id="gc2">
+            <div class="locked-n">2</div>
+            <div class="locked-t">Clue 2 — unlocks after first wrong guess</div>
+            <div class="g-pts dim">+4 pts</div>
+          </div>
+          <div class="g-clue locked" id="gc3">
+            <div class="locked-n">3</div>
+            <div class="locked-t">Clue 3 — unlocks after second wrong guess</div>
+            <div class="g-pts dim">+3 pts</div>
+          </div>
+          <div class="g-clue locked" id="gc4">
+            <div class="locked-n">4</div>
+            <div class="locked-t">Clue 4 — unlocks after third wrong guess</div>
+            <div class="g-pts dim">+2 pts</div>
+          </div>
+          <div class="g-clue locked" id="gc5">
+            <div class="locked-n">5</div>
+            <div class="locked-t">Final clue</div>
+            <div class="g-pts dim">+1 pt</div>
+          </div>
+        </div>
+        <div class="g-input-area" id="g-input-area">
+          <div class="g-suggestions" id="g-suggestions"></div>
+          <div style="display:flex;gap:8px">
+            <input class="demo-input" id="g-input" type="text" placeholder="Type a player name…" oninput="guesserInput()" onkeydown="if(event.key==='Enter')submitGuess()" autocomplete="off"/>
+            <button class="demo-btn-primary" onclick="submitGuess()">GUESS</button>
+          </div>
+          <div class="g-meta" id="g-meta">Guess 1 of 5 · 5 guesses remaining</div>
+        </div>
+        <div class="g-result" id="g-result" style="display:none"></div>
+      </div>
+      <div class="demo-right">
+        <div class="demo-hint-box">
+          <div class="demo-hint-title">HOW TO PLAY</div>
+          <p class="demo-hint-text">Each correct guess on the first clue earns maximum points. Wrong guesses unlock the next clue but cost you points. Can you get it in one?</p>
+          <div class="demo-score-display">
+            <div class="demo-score-label">POTENTIAL SCORE</div>
+            <div class="demo-score-num" id="g-potential">+5 pts</div>
+          </div>
+          <div class="g-wrong-list" id="g-wrong-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONNECTIONS DEMO -->
+  <div class="demo-panel" id="demo-connections">
+    <div class="demo-eyebrow">Mode 02 · Group 12 players into 3 hidden categories — 3 lives</div>
+    <div class="demo-grid">
+      <div class="demo-left">
+        <div class="c-solved-groups" id="c-solved-groups"></div>
+        <div class="c-grid" id="c-grid"></div>
+        <div style="display:flex;gap:8px;margin-top:12px">
+          <button class="demo-btn-primary" style="flex:1" onclick="submitConnections()">SUBMIT GROUP</button>
+          <button class="demo-btn-sec" onclick="deselectAll()">DESELECT ALL</button>
+        </div>
+        <div class="c-meta" id="c-meta">
+          <span id="c-selected-count">0 selected</span>
+          <div class="c-lives" id="c-lives">
+            <div class="c-life"></div><div class="c-life"></div><div class="c-life"></div>
+          </div>
+        </div>
+        <div class="c-message" id="c-message"></div>
+      </div>
+      <div class="demo-right">
+        <div class="demo-hint-box">
+          <div class="demo-hint-title">HOW TO PLAY</div>
+          <p class="demo-hint-text">Select exactly 4 players that share a hidden connection, then submit. Three categories to find. One wrong answer costs a life — you only have three.</p>
+          <div style="margin-top:16px">
+            <div class="demo-hint-title" style="margin-bottom:8px">CATEGORIES TODAY</div>
+            <div class="c-hint-row">🟩 <span>Shown when solved</span></div>
+            <div class="c-hint-row">🟨 <span>Shown when solved</span></div>
+            <div class="c-hint-row">🟥 <span>Shown when solved</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HIGHER/LOWER DEMO -->
+  <div class="demo-panel" id="demo-hl">
+    <div class="demo-eyebrow">Mode 03 · Build the longest chain of correct higher / lower picks</div>
+    <div class="demo-grid">
+      <div class="demo-left">
+        <div class="hl-stat-cat">Premier League Goals Scored</div>
+        <div class="hl-matchup">
+          <div class="hl-card" id="hl-left">
+            <div class="hl-name" id="hl-left-name">Thierry Henry</div>
+            <div class="hl-val" id="hl-left-val">175</div>
+            <div class="hl-unit" id="hl-left-unit">PL GOALS</div>
+          </div>
+          <div class="hl-vs">VS</div>
+          <div class="hl-card unknown" id="hl-right">
+            <div class="hl-name" id="hl-right-name">Sergio Agüero</div>
+            <div class="hl-val unknown-val" id="hl-right-val">???</div>
+            <div class="hl-unit">PL GOALS</div>
+          </div>
+        </div>
+        <div class="hl-btns">
+          <button class="hl-btn higher" id="hl-higher" onclick="pickHL('higher')">
+            HIGHER ↑<span class="hl-btn-sub">More goals</span>
+          </button>
+          <button class="hl-btn lower" id="hl-lower" onclick="pickHL('lower')">
+            LOWER ↓<span class="hl-btn-sub">Fewer goals</span>
+          </button>
+        </div>
+        <div class="hl-chain-row">
+          <div><div class="hl-chain-label">CHAIN</div><div class="hl-chain-val" id="hl-chain-val">0</div></div>
+          <div class="hl-dots" id="hl-dots">
+            <div class="hl-dot"></div><div class="hl-dot"></div><div class="hl-dot"></div>
+            <div class="hl-dot"></div><div class="hl-dot"></div><div class="hl-dot"></div>
+            <div class="hl-dot"></div>
+          </div>
+          <div><div class="hl-chain-label">BEST</div><div class="hl-chain-val" id="hl-best-val">0</div></div>
+        </div>
+      </div>
+      <div class="demo-right">
+        <div class="demo-hint-box">
+          <div class="demo-hint-title">HOW TO PLAY</div>
+          <p class="demo-hint-text">Does the right-hand player have more or fewer Premier League goals than the left? Guess correctly and the chain grows. One wrong answer ends it.</p>
+          <div class="demo-score-display" style="margin-top:16px">
+            <div class="demo-score-label">CURRENT CHAIN</div>
+            <div class="demo-score-num" id="hl-chain-display">0 correct</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL PROOF -->
+<div class="proof-section">
+  <div class="proof-item reveal">
+    <div class="proof-num">3</div>
+    <div class="proof-label">minutes a day</div>
+  </div>
+  <div class="proof-item reveal" style="transition-delay:0.1s">
+    <div class="proof-num">Early</div>
+    <div class="proof-label">access — join now</div>
+  </div>
+  <div class="proof-item reveal" style="transition-delay:0.2s">
+    <div class="proof-num">∞</div>
+    <div class="proof-label">arguments settled</div>
+  </div>
+</div>
+
+<!-- PRICING -->
+<section class="pricing-section">
+  <div class="section-label" style="justify-content:center">Pricing</div>
+  <h2 class="pricing-title">PLAY FREE.<br>GO PRO.</h2>
+  <p class="pricing-sub">Start free, upgrade when you're hooked.</p>
+  <div class="pricing-cards">
+    <div class="pricing-card reveal">
+      <div class="plan-name">FREE</div>
+      <div class="plan-price">£0 <span>/ to start</span></div>
+      <p class="plan-desc">All three daily puzzles, every day. No credit card required.</p>
+      <ul class="plan-features">
+        <li>All 3 daily modes</li>
+        <li>Daily streak tracking</li>
+        <li>Basic stats</li>
+        <li class="no">Score history</li>
+        <li class="no">Leaderboards</li>
+        <li class="no">Bonus weekly puzzles</li>
+      </ul>
+      <button class="plan-btn free-btn" data-tally-open="1AGQyL" data-tally-emoji-text="⚽" data-tally-emoji-animation="wave" data-tally-auto-close="2000">START FREE</button>
+    </div>
+    <div class="pricing-card featured reveal" style="transition-delay:0.1s">
+      <div class="pricing-badge">MOST POPULAR</div>
+      <div class="plan-name">PRO</div>
+      <div class="plan-price">£2 <span>/ month</span></div>
+      <p class="plan-desc">For fans who take their football knowledge seriously.</p>
+      <ul class="plan-features">
+        <li>All 3 daily modes</li>
+        <li>Daily streak tracking</li>
+        <li>Full stats dashboard</li>
+        <li>Score history</li>
+        <li>Leaderboards</li>
+        <li>Bonus weekly puzzles</li>
+      </ul>
+      <button class="plan-btn pro-btn" data-tally-open="1AGQyL" data-tally-emoji-text="⚽" data-tally-emoji-animation="wave" data-tally-auto-close="2000">JOIN WAITLIST</button>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM CTA -->
+<section class="bottom-cta">
+  <h2 class="cta-headline">THINK YOU KNOW<br><em>your</em> FOOTBALL?</h2>
+  <p class="cta-sub">Join the waitlist. Be first to play when we launch.</p>
+  <div class="cta-form" style="justify-content:center">
+    <button class="signup-btn" style="padding:16px 40px;font-size:20px" data-tally-open="1AGQyL" data-tally-emoji-text="⚽" data-tally-emoji-animation="wave" data-tally-auto-close="2000">JOIN THE WAITLIST</button>
+  </div>
+  <div class="signup-note" style="text-align:center;margin-top:14px">No spam · Unsubscribe anytime · Your data stays private</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">KICKOFF DAILY</div>
+  <div class="footer-gdpr">We'll only use your email to notify you about Kickoff Daily. No spam, no third parties. You can unsubscribe at any time.</div>
+  <div class="footer-note">© 2025 · BUILT FOR PROPER FOOTBALL FANS</div>
+</footer>
+
+<script src="app.js"></script>
+<script async src="https://tally.so/widgets/embed.js"></script>
+</body>
+</html>
